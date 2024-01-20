@@ -1,0 +1,15 @@
+global using Moq;
+global using MediatR;
+global using NUnit.Framework;
+global using FluentValidation;
+global using FluentAssertions;
+global using FluentValidation.Results;
+global using Application.Common.Models;
+global using Microsoft.Extensions.Logging;
+global using Application.Common.Exceptions;
+global using Application.Common.Behaviours;
+global using Application.Features.Launches.DTOs;
+global using Application.Infrastructure.Services;
+global using Application.Features.Launches.Queries;
+global using Application.Features.Launches.Validators;
+global using ValidationException = Application.Common.Exceptions.ValidationException;

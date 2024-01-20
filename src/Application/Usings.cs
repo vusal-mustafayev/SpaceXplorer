@@ -1,0 +1,16 @@
+﻿global using MediatR;
+global using MediatR.Pipeline;
+global using System.Reflection;
+global using Newtonsoft.Json;
+global using FluentValidation;
+global using FluentValidation.Results;
+global using Newtonsoft.Json.Serialization;
+global using Microsoft.Extensions.Logging;
+global using Application.Common.Models;
+global using Application.Common.Exceptions;
+global using Application.Common.Behaviours;
+global using Application.Features.Launches.DTOs;
+global using Application.Infrastructure.Services;
+global using Application.Features.Launches.Queries;
+global using Microsoft.Extensions.DependencyInjection;
+global using ValidationException = Application.Common.Exceptions.ValidationException;

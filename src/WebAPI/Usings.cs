@@ -1,0 +1,11 @@
+global using Application.Features.Launches.Queries;
+global using Application.Common.Exceptions;
+global using MediatR;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.AspNetCore.Hosting;
+global using Application;
+global using WebAPI.Filters;
+global using Microsoft.AspNetCore.Mvc;
+global using Application.Common.Models;
+global using Application.Features.Launches.DTOs;
+global using Microsoft.AspNetCore.Mvc.Filters;
